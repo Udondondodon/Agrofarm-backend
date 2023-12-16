@@ -1,6 +1,5 @@
 import { Sequelize } from 'sequelize';
-
-const mysql2 = require('mysql2');
+import mysql2 from 'mysql2';
 
 const db = new Sequelize('agrofarm', 'root', '', {
   host: 'localhost',
